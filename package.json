@@ -1,8 +1,8 @@
 {
   "name": "parcel-starter-with-tailwind",
   "scripts": {
-    "dev": "rm -rf ./development && rm -rf ./.cache && yarn run css && parcel public/index.html --out-dir development -p 3000",
-    "build": "yarn run build:css && parcel build public/index.html --out-dir dist --public-url ./",
+    "dev": "rm -rf ./development && rm -rf ./.cache && npm run css && parcel public/index.html --out-dir development -p 3000",
+    "build": "npm run build:css && parcel build public/index.html --out-dir dist --public-url ./",
     "css": "tailwindcss build src/css/source.css -o public/tailwind.css",
     "build:css": "postcss src/css/source.css -o public/tailwind.css --env production"
   },

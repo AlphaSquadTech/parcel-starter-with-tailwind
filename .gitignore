@@ -5,4 +5,5 @@ development
 dist
 yarn.lock
 package-lock.json
+package-lock.json
 public/tailwind.css
